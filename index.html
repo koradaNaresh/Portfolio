@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Naresh Korada — Senior Software Engineer</title>
+  <title>Naresh Korada — Senior Software Developer</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet"/>
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -319,6 +319,10 @@
     /* ── RESPONSIVE ── */
     @media (max-width: 700px) {
       .about-grid, .edu-grid { grid-template-columns: 1fr; }
+      .nav-links { gap: 10px; }
+      .nav-links a { font-size: .72rem; }
+      .nav-logo { display: none; }
+      .projects-grid { grid-template-columns: minmax(0, 1fr); }
       .projects-grid { grid-template-columns: 1fr; }
       .hero-stats { gap: 24px; }
       nav { padding: 0 4%; }
@@ -344,9 +348,9 @@
 <!-- HERO -->
 <section id="hero">
   <div class="hero-inner">
-    <span class="hero-eyebrow">Senior Software Engineer</span>
+    <span class="hero-eyebrow">Senior Software Developer</span>
     <h1>Naresh Korada</h1>
-    <p class="hero-sub">10+ years of crafting high-performance, user-centric web interfaces with Angular, JavaScript, and modern front-end technologies.</p>
+    <p class="hero-sub">10 years of enterprise web application development with Angular 16/18/20, TypeScript, PrimeNG, AG Grid, and REST API integration.</p>
     <div class="hero-cta-group">
       <a href="#contact" class="btn btn-primary">Get in Touch</a>
       <a href="#projects" class="btn btn-outline">View Projects</a>
@@ -357,12 +361,12 @@
         <div class="stat-label">Years of Experience</div>
       </div>
       <div>
-        <div class="stat-num">4</div>
-        <div class="stat-label">Companies Worked</div>
+        <div class="stat-num">5</div>
+        <div class="stat-label">Organizations</div>
       </div>
       <div>
-        <div class="stat-num">2</div>
-        <div class="stat-label">Major Enterprise Projects</div>
+        <div class="stat-num">5</div>
+        <div class="stat-label">Featured Projects</div>
       </div>
       <div>
         <div class="stat-num">MCA</div>
@@ -380,9 +384,9 @@
     <div class="section-divider"></div>
     <div class="about-grid">
       <div class="about-text">
-        <p>I am a Senior Software Engineer with over 10 years of IT experience, currently working at Prudent Technologies, Hyderabad. I specialize in building scalable and responsive web applications using Angular, HTML5, CSS3, and JavaScript.</p>
-        <p>My expertise spans across UI development, API integration, cross-browser compatibility, and delivering quality solutions in Agile environments. I have contributed to enterprise-level projects for clients including CitiBank and IBM, working within large cross-functional teams.</p>
-        <p>I am passionate about clean code, usability, and ensuring that every interface I build meets the highest standards of both design and functionality.</p>
+        <p>I am a Senior Software Developer with 10 years of experience building enterprise web applications, specializing in Angular 16/18/20, TypeScript, and modern front-end development.</p>
+        <p>I build reusable UI components and data-driven interfaces with PrimeNG and AG Grid, integrate REST APIs, and have hands-on experience with Node.js and Express.js for backend integration. My domain experience spans banking, insurance, and real estate, with project contributions for CBRE, Citi, and IBM.</p>
+        <p>I also work with Git, Bitbucket, Azure DevOps, Jenkins, SonarQube, Black Duck, and JFrog Artifactory, and collaborate with cross-functional teams through Agile/Scrum delivery and release cycles.</p>
       </div>
       <div class="about-traits">
         <div class="trait"><span class="trait-icon">🔧</span> Strong debugging & troubleshooting skills using developer tools</div>
@@ -403,58 +407,46 @@
     <div class="section-divider"></div>
     <div class="skills-grid">
       <div class="skill-card">
-        <div class="skill-category">Languages</div>
+        <div class="skill-category">Languages & Core</div>
         <div class="skill-items">
-          <span class="badge">JavaScript</span>
-          <span class="badge">TypeScript</span>
-          <span class="badge">Node.js</span>
+          <span class="badge">TypeScript</span><span class="badge">JavaScript</span>
+          <span class="badge">HTML</span><span class="badge">CSS</span><span class="badge">SQL</span>
         </div>
       </div>
       <div class="skill-card">
-        <div class="skill-category">Frameworks & Libraries</div>
+        <div class="skill-category">Frameworks & UI</div>
         <div class="skill-items">
-          <span class="badge">Angular 12/16</span>
-          <span class="badge">Express JS</span>
-          <span class="badge">jQuery</span>
-          <span class="badge">PrimeNG</span>
-          <span class="badge">AgGrid</span>
-          <span class="badge">Knockout JS</span>
+          <span class="badge">Angular 16/18/20</span><span class="badge">PrimeNG</span>
+          <span class="badge">AG Grid</span><span class="badge">Angular Material</span>
+          <span class="badge">Bootstrap</span><span class="badge">jQuery</span>
         </div>
       </div>
       <div class="skill-card">
-        <div class="skill-category">Web Technologies</div>
+        <div class="skill-category">Backend & APIs</div>
         <div class="skill-items">
-          <span class="badge">HTML5</span>
-          <span class="badge">CSS3</span>
-          <span class="badge">Bootstrap</span>
-          <span class="badge">AJAX</span>
-          <span class="badge">JSON</span>
+          <span class="badge">Node.js</span><span class="badge">Express.js</span>
+          <span class="badge">REST API Development</span>
         </div>
       </div>
       <div class="skill-card">
-        <div class="skill-category">Databases</div>
+        <div class="skill-category">Source Control & DevOps</div>
         <div class="skill-items">
-          <span class="badge">SQL Server</span>
-          <span class="badge">Oracle</span>
-          <span class="badge">DB2</span>
-          <span class="badge">Elastic Search</span>
+          <span class="badge">Git</span><span class="badge">Bitbucket</span>
+          <span class="badge">Azure DevOps</span><span class="badge">Jenkins</span>
         </div>
       </div>
       <div class="skill-card">
-        <div class="skill-category">Tools & IDEs</div>
+        <div class="skill-category">Code Quality & Security</div>
         <div class="skill-items">
-          <span class="badge">VS Code</span>
-          <span class="badge">Eclipse</span>
-          <span class="badge">IntelliJ</span>
-          <span class="badge">JIRA</span>
+          <span class="badge">SonarQube</span><span class="badge">Black Duck</span>
+          <span class="badge">JFrog Artifactory</span>
         </div>
       </div>
       <div class="skill-card">
-        <div class="skill-category">Version Control</div>
+        <div class="skill-category">Additional UI Technologies</div>
         <div class="skill-items">
-          <span class="badge">Git</span>
-          <span class="badge">BitBucket</span>
-          <span class="badge">MS TFS</span>
+          <span class="badge">Knockout.js</span><span class="badge">Responsive UI</span>
+          <span class="badge">Cross-browser Compatibility</span>
         </div>
       </div>
     </div>
@@ -470,38 +462,38 @@
     <div class="timeline">
       <div class="tl-item">
         <div class="tl-dot"></div>
-        <div class="tl-period">Sept 2025 — Present</div>
-        <div class="tl-title">Senior Software Engineer</div>
-        <div class="tl-company">Prudent Technologies — Hyderabad</div>
-        <div class="tl-desc">Currently working as Senior Software Engineer, contributing to front-end development using Angular and modern web technologies to deliver high-quality enterprise solutions.</div>
+        <div class="tl-period">Sep 2025 — Aug 2026</div>
+        <div class="tl-title">Senior Software Developer</div>
+        <div class="tl-company">Prudent Global Tech Solutions Pvt. Ltd.</div>
+        <div class="tl-desc">Translated business requirements into responsive Angular 18/20 features and reusable PrimeNG/AG Grid components; integrated API services and supported enterprise releases. Managed Git/Bitbucket workflows and Azure DevOps pipelines for Development, QA, UAT, and Production.</div>
       </div>
       <div class="tl-item">
         <div class="tl-dot"></div>
         <div class="tl-period">Aug 2021 — Aug 2025</div>
         <div class="tl-title">Senior Software Engineer</div>
-        <div class="tl-company">LTIMindtree — Hyderabad</div>
-        <div class="tl-desc">Led front-end development for enterprise banking applications. Worked on Angular-based solutions for high-profile clients including CitiBank, ensuring quality, scalability, and design consistency.</div>
+        <div class="tl-company">LTIMindtree</div>
+        <div class="tl-desc">Built reusable Angular 16/18 components and enterprise data interfaces with AG Grid and PrimeNG; integrated API services, managed source-control workflows, and supported defect analysis, debugging, and release documentation.</div>
       </div>
       <div class="tl-item">
         <div class="tl-dot"></div>
         <div class="tl-period">Aug 2019 — Aug 2021</div>
         <div class="tl-title">Application Programmer</div>
-        <div class="tl-company">IBM India Pvt Ltd — Hyderabad</div>
-        <div class="tl-desc">Designed and developed the IBM Sales Dashboard (ISD), integrating AI-predicted data with real-time business metrics. Worked with Angular, Node.js, Express.js, and Carbon Components.</div>
+        <div class="tl-company">IBM India Pvt. Ltd.</div>
+        <div class="tl-desc">Designed, coded, and tested Angular front-end solutions and integrated application business layers using Node.js and Express.js. Contributed to prototypes, UI components, and release coordination.</div>
       </div>
       <div class="tl-item">
         <div class="tl-dot"></div>
         <div class="tl-period">Feb 2017 — Aug 2019</div>
         <div class="tl-title">UI Developer</div>
-        <div class="tl-company">Acess Meditech Pvt Ltd — Hyderabad</div>
-        <div class="tl-desc">Developed responsive and browser-compatible web interfaces for healthcare applications, with focus on usability and cross-platform support.</div>
+        <div class="tl-company">Access Meditech Pvt. Ltd.</div>
+        <div class="tl-desc">Developed dynamic, browser-compatible, responsive interfaces with JavaScript, jQuery, and Knockout.js for insurance workflows; supported debugging and Agile/Scrum activities.</div>
       </div>
       <div class="tl-item">
         <div class="tl-dot"></div>
         <div class="tl-period">May 2016 — Feb 2017</div>
         <div class="tl-title">Technical Developer</div>
-        <div class="tl-company">APPElegance Technologies Pvt Ltd — Hyderabad</div>
-        <div class="tl-desc">Started professional career building web applications and UI components using core web technologies including HTML, CSS, and JavaScript.</div>
+        <div class="tl-company">APPElegance Technologies Pvt. Ltd.</div>
+        <div class="tl-desc">Developed web pages and UI components using HTML, CSS, and JavaScript, and supported debugging and troubleshooting of existing applications.</div>
       </div>
     </div>
   </div>
@@ -514,93 +506,60 @@
     <h2>Key Projects</h2>
     <div class="section-divider"></div>
     <div class="projects-grid">
-
       <div class="project-card">
-        <span class="project-client">CitiBank · LTIMindtree</span>
-        <div class="project-title">Data & Source Certification (DSC) and Workflow</div>
-        <p class="project-desc">Enterprise application supporting the process of assessing readiness, quality, and controls of data sources based on consumer requirements — ensuring data is fit-for-purpose with authentic evidence. Team size: 32.</p>
+        <span class="project-client">CBRE</span>
+        <div class="project-title">MarketIQ (MIQ)</div>
+        <p class="project-desc">Enterprise commercial real estate property data management platform serving thousands of internal users.</p>
         <ul class="project-responsibilities">
-          <li>Developed dynamic web pages and called API services to display real-time data</li>
-          <li>Ensured cross-browser and multi-device compatible design</li>
-          <li>Participated in Agile/Scrum meetings, reviewed release notes and user guides</li>
-          <li>Collaborated closely with developers to align application with user expectations</li>
+          <li>Developed Angular 18/20 front-end features and reusable components</li>
+          <li>Integrated APIs to present property, lease, and sale data</li>
+          <li>Built data-rich interfaces using PrimeNG and AG Grid</li>
         </ul>
         <div class="project-tags" style="margin-top:14px">
-          <span class="tag">Angular 16 & 18</span>
-          <span class="tag">HTML5 / CSS3</span>
-          <span class="tag">AgGrid</span>
-          <span class="tag">PrimeNG</span>
-          <span class="tag">Java Spring Boot</span>
-          <span class="tag">Oracle</span>
-          <span class="tag">NGINX</span>
-          <span class="tag">JIRA</span>
+          <span class="tag">Angular 18/20</span><span class="tag">TypeScript</span>
+          <span class="tag">PrimeNG</span><span class="tag">AG Grid</span><span class="tag">REST APIs</span>
         </div>
       </div>
-
+      <div class="project-card">
+        <span class="project-client">Citi</span>
+        <div class="project-title">Data and Source Certification (DSC) Application & Workflow</div>
+        <p class="project-desc">Enterprise workflows supporting source readiness and data quality certification.</p>
+        <ul class="project-responsibilities">
+          <li>Developed reusable Angular components and data-driven interfaces</li>
+          <li>Used AG Grid and PrimeNG to present workflow and data quality information</li>
+          <li>Identified and resolved security findings with Black Duck and improved maintainability by addressing SonarQube issues</li>
+        </ul>
+        <div class="project-tags" style="margin-top:14px">
+          <span class="tag">Angular 16/18</span><span class="tag">TypeScript</span>
+          <span class="tag">AG Grid</span><span class="tag">PrimeNG</span>
+          <span class="tag">Black Duck</span><span class="tag">SonarQube</span>
+        </div>
+      </div>
       <div class="project-card">
         <span class="project-client">IBM</span>
-        <div class="project-title">IBM Sales Dashboard (ISD)</div>
-        <p class="project-desc">Unified business portal consolidating past, current, and AI-forecasted sales data into a single dashboard for strategic decisions. Team size: 40.</p>
+        <div class="project-title">IBM Sales Dashboard</div>
+        <p class="project-desc">Unified dashboard displaying historical, current, and AI-predicted sales forecast data.</p>
         <ul class="project-responsibilities">
-          <li>Designed, coded, and tested innovative component-level front-end solutions</li>
-          <li>Integrated front-end with the application business layer</li>
-          <li>Developed proof-of-concepts and visually appealing UI prototypes</li>
-          <li>Worked in an Agile, collaborative environment to meet stakeholder requirements</li>
+          <li>Built front-end modules using Angular and Node.js</li>
+          <li>Integrated the UI with the application business layer</li>
         </ul>
         <div class="project-tags" style="margin-top:14px">
-          <span class="tag">Angular 6</span>
-          <span class="tag">Node.js</span>
-          <span class="tag">Express.js</span>
-          <span class="tag">TypeScript</span>
-          <span class="tag">DB2</span>
-          <span class="tag">Elastic Search</span>
-          <span class="tag">Carbon Components</span>
-          <span class="tag">NGINX</span>
+          <span class="tag">Angular</span><span class="tag">Node.js</span><span class="tag">Express.js</span>
         </div>
       </div>
-
       <div class="project-card">
-        <span class="project-client">ACIG · Saudi Arabia · Accessmeditech</span>
+        <span class="project-client">ACIG</span>
         <div class="project-title">GICORE Application</div>
-        <p class="project-desc">General insurance platform covering corporate sector policies in compliance with Saudi Arabian Monetary Authority (SAMA) regulations. Supported policy issuance, endorsements, and renewals via the LIMRA system. Team size: 15.</p>
+        <p class="project-desc">General insurance workflows implemented in an ASP.NET MVC environment.</p>
         <ul class="project-responsibilities">
-          <li>Developed dynamic web pages with multi-browser compatibility</li>
-          <li>Built responsive, device-supported UI using Knockout JS and jQuery</li>
-          <li>Contributed to Agile ceremonies, release reviews, and user guide documentation</li>
+          <li>Implemented UI features for general insurance processes</li>
+          <li>Used JavaScript, Knockout.js, and jQuery for responsive interfaces</li>
         </ul>
         <div class="project-tags" style="margin-top:14px">
-          <span class="tag">ASP.NET MVC</span>
-          <span class="tag">C#</span>
-          <span class="tag">Knockout JS</span>
-          <span class="tag">jQuery</span>
-          <span class="tag">JavaScript</span>
-          <span class="tag">HTML5 / CSS3</span>
-          <span class="tag">Oracle</span>
-          <span class="tag">IIS</span>
+          <span class="tag">JavaScript</span><span class="tag">Knockout.js</span>
+          <span class="tag">jQuery</span><span class="tag">ASP.NET MVC</span>
         </div>
       </div>
-
-      <div class="project-card">
-        <span class="project-client">Associated Road Carriers · App Elegance</span>
-        <div class="project-title">Fleet Tracking System</div>
-        <p class="project-desc">Web application to maintain, monitor, and track the location of goods and services for a leading Indian travel & logistics company. Team size: 5.</p>
-        <ul class="project-responsibilities">
-          <li>Involved in the Admin Module development end-to-end</li>
-          <li>Implemented data tables with sorting and pagination</li>
-          <li>Integrated front-end with the application business layer</li>
-          <li>Participated in all SDLC phases: requirements gathering, design, implementation, and testing</li>
-        </ul>
-        <div class="project-tags" style="margin-top:14px">
-          <span class="tag">Java</span>
-          <span class="tag">JSP</span>
-          <span class="tag">jQuery</span>
-          <span class="tag">JavaScript</span>
-          <span class="tag">HTML5 / CSS3</span>
-          <span class="tag">Cassandra DB</span>
-          <span class="tag">Tomcat</span>
-        </div>
-      </div>
-
     </div>
   </div>
 </section>
@@ -613,14 +572,18 @@
     <div class="section-divider"></div>
     <div class="edu-grid">
       <div class="edu-card">
-        <div class="edu-degree">MCA — Master of Computer Applications</div>
-        <div class="edu-institution">GMRIT College of Engineering & Technology, Rajam</div>
-        <div class="edu-year">2011 – 2014</div>
+        <div class="edu-degree">MCA — Computers</div>
+        <div class="edu-institution">GMR Institute of Technology, Rajam</div>
+        <div class="edu-year">2014 · 76%</div>
       </div>
       <div class="edu-card">
-        <div class="edu-degree">BSc — Electronics & Computers</div>
-        <div class="edu-institution">Sri GCSR Degree College, Rajam</div>
-        <div class="edu-year">2008 – 2011</div>
+        <div class="edu-degree">B.Sc — Electronics</div>
+        <div class="edu-institution">Andhra University, Visakhapatnam</div>
+        <div class="edu-year">2011 · 66%</div>
+      </div>
+      <div class="edu-card">
+        <div class="edu-degree">HTML 5 Application Development Fundamentals</div>
+        <div class="edu-institution">Certification 98-375</div>
       </div>
     </div>
   </div>
@@ -632,11 +595,11 @@
     <div class="section-label" style="color:#a8cafc">Get in Touch</div>
     <h2>Contact</h2>
     <div class="section-divider"></div>
-    <p>Open to new opportunities, collaborations, and interesting projects. Feel free to reach out.</p>
+    <p>Based in Hyderabad, India. I enjoy technical blogging, open-source contribution, and running. Languages: Telugu, English, and Hindi. I have also mentored junior developers in Angular best practices, component design, and debugging.</p>
     <div class="contact-links">
-      <a href="mailto:Korada.nareshui@gmail.com" class="contact-link">
+      <a href="mailto:korada.nareshui@gmail.com" class="contact-link">
         <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 7 10 7 10-7"/></svg>
-        Korada.nareshui@gmail.com
+        korada.nareshui@gmail.com
       </a>
       <a href="tel:+919989328817" class="contact-link">
         <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.1 12.18 19.79 19.79 0 0 1 1.05 3.59 2 2 0 0 1 3 1.41h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 21 16.92z"/></svg>
@@ -651,7 +614,7 @@
 </section>
 
 <footer>
-  &copy; 2026 Naresh Korada · Senior Software Engineer · Hyderabad, India
+  &copy; 2026 Naresh Korada · Senior Software Developer · Hyderabad, India
 </footer>
 
 </body>
